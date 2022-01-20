@@ -73,15 +73,16 @@ header img{
 section.jambotron h1, p{
     position: absolute;
     left: 50px;
+    width: 50%;
 }
 
 section.jambotron  h1{
-    bottom: 110px;
-    width: 40%;
+    bottom: 100px;
+    font-size: 1.85em;
 }
 
 section.jambotron p{
-    bottom: 10px;
+    bottom: 65px;
 }
 
 .gutter-top{
