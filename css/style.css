@@ -66,10 +66,14 @@ header.long h2{
 
 .container{
     width: 80%;
-    height: 1300px;
     margin: 0 auto;
     min-width: 80%; 
 
+}
+
+.wh-container{
+    width: 236.1px;
+    height: 92.75px;
 }
 
 
@@ -79,7 +83,8 @@ header.long h2{
 
 .jambotron{
     background-image: url(../img/banner.jpg);
-    height: calc(45% - 20px);
+    height: 565px;
+    width: 1015.04px;
     color: white;
     position: relative;
 }
@@ -157,6 +162,7 @@ section div{
 
 #h-main{
     height: calc(20% - 20px);
+    margin-bottom: 25px;
 }
     
 
