@@ -102,9 +102,10 @@ header.long h2{
 .jambotron{
     background-image: url(../img/banner.jpg);
     height: 565px;
-    width: 1015.04px;
+    width: 100%;
     color: white;
     position: relative;
+    background-position-x: center;
 }
 
 
@@ -116,7 +117,7 @@ header.long h2{
 
 
 .main-center{
-    width: 60%;
+    width: calc(60% - 20px);
     height: calc(80% - 20px);
     margin: 20px;
     
@@ -131,6 +132,7 @@ header.long h2{
 .main-right{
     float: right;
 }
+
 
 .bg-img{
     background-image: url(../img/img-3.jpg);
