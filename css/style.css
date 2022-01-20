@@ -121,6 +121,9 @@ section div{
     height: calc(80% - 20px);
 }
 
+
+
+
 .back-content{
     background-color: #abcfe7;
 }
@@ -133,5 +136,9 @@ section div{
     height: calc(20% - 20px);
 }
     
+.dimension{
+    max-width: 183px;
+    max-height: auto;
+}
 
 
