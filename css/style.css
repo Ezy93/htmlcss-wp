@@ -29,7 +29,8 @@ ul li{
 }
 
 ul li,
-header img{
+header img,
+header.long h6{
     color:#c6c6c6
 }
 
@@ -42,6 +43,10 @@ header img{
     margin-bottom: 37px;
     border-right: 1px solid;
     padding-right: 16px;
+}
+
+header.long h2{
+    margin-top: 15px;
 }
 
 .long{
