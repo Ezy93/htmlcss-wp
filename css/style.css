@@ -4,10 +4,33 @@
     padding: 0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 footer{
     background-color: #8801fe ;
     margin-top: 10px;
     height: calc(6% - 20px);
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav ul{
+    word-spacing: 15px;
+}
+
+header img{
+    height: 53%;
+    margin-bottom: 37px;
+    border-right: 1px solid black;
+    padding-right: 16px;
 }
 
 .long{
@@ -27,15 +50,9 @@ footer{
 
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .top-menu{
-    background-color: #e579e6;
-    height: calc(10% - 20px);
+    height: calc(15% - 20px);
 }
 
 .jambotron{
