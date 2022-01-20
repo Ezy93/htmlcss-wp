@@ -51,6 +51,24 @@ header img{
     padding-right: 16px;
 }
 
+section.jambotron  h1{
+    bottom: 100px;
+    font-size: 1.2em;
+}
+
+section.jambotron p,
+.txt-size{
+    font-size: 0.7em;
+}
+
+section div{
+    position: absolute;
+    left: 50px;
+    bottom: 55px;
+    width: 50%;
+    
+}
+
 header.long h2{
     margin-top: 15px;
 }
@@ -91,23 +109,6 @@ header.long h2{
 
 
 
-section.jambotron  h1{
-    bottom: 100px;
-    font-size: 1.2em;
-}
-
-section.jambotron p,
-.txt-size{
-    font-size: 0.7em;
-}
-
-section div{
-    position: absolute;
-    left: 50px;
-    bottom: 55px;
-    width: 50%;
-    
-}
 
 .gutter-top{
     margin-top: 20px;
