@@ -20,6 +20,12 @@ ul li{
     display: inline;
     list-style: none;
     text-transform: uppercase;
+
+}
+
+ul li,
+header img{
+    color:#c6c6c6
 }
 
 nav ul{
@@ -29,7 +35,7 @@ nav ul{
 header img{
     height: 53%;
     margin-bottom: 37px;
-    border-right: 1px solid black;
+    border-right: 1px solid;
     padding-right: 16px;
 }
 
@@ -44,7 +50,7 @@ header img{
 
 .container{
     width: 80%;
-    height: 1000px;
+    height: 1300px;
     margin: 0 auto;
     min-width: 500px;
 
@@ -56,8 +62,26 @@ header img{
 }
 
 .jambotron{
-    background-color: #e1d67a ;
-    height: calc(34% - 20px);
+    background-image: url(../img/banner.jpg);
+    background-color: rgba(0, 0, 0, .2) ;
+    background-blend-mode: darken;
+    height: calc(45% - 20px);
+    color: white;
+    position: relative;
+}
+
+section.jambotron h1, p{
+    position: absolute;
+    left: 50px;
+}
+
+section.jambotron  h1{
+    bottom: 110px;
+    width: 40%;
+}
+
+section.jambotron p{
+    bottom: 10px;
 }
 
 .gutter-top{
