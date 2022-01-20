@@ -135,20 +135,21 @@ header.long h2{
 
 
 .bg-img{
-    background-image: url(../img/img-3.jpg);
-    background-position-x: -60px;
-    
+    background-image: url(../img/img-3.jpg);    
 }
 
 .bg-aside{
     background-image: url(../img/img-1.jpg);
-    background-size: contain;
 }
 
 .bg-center{
     background-image: url(../img/banner-2.jpg);
+}
+
+.img-align{
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-position-y: -90px;
 }
 
 .dimension{
