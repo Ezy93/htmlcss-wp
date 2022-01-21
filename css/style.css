@@ -113,7 +113,7 @@ header.long h2{
 
 
 .main-center{
-    width: calc(60% - 20px);
+    width: 60%;
     height: calc(80% - 20px);
     margin: 20px;
     
@@ -126,7 +126,7 @@ header.long h2{
 
 
 .main-right{
-    float: right;
+    float: left;
 }
 
 
